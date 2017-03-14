@@ -9,4 +9,5 @@ dependencies:
     - go get -t -d -v ./...
     - chmod +x build.sh
 test:
-    - build.sh
+  override:
+    - ./build.sh
